@@ -6,7 +6,6 @@ import logo from "@/assets/r-sala-logo.png";
 const navLinks = [
   { href: "#about", label: "About" },
   { href: "#gallery", label: "Gallery" },
-  { href: "#pricing", label: "Pricing" },
 ];
 
 export const scrollToSection = (href: string) => {
@@ -66,9 +65,9 @@ const SiteHeader = () => {
             ))}
             <Button
               size="sm"
-              onClick={() => scrollToSection("#booking")}
+              onClick={() => scrollToSection("#gallery")}
             >
-              Book Now
+              View Gallery
             </Button>
           </nav>
 
@@ -136,14 +135,13 @@ const SiteHeader = () => {
             ))}
           </nav>
 
-          {/* Book Now CTA */}
           <div className="px-6 pb-8 shrink-0">
             <Button
               className="w-full"
               size="lg"
-              onClick={() => handleNavClick("#booking")}
+              onClick={() => handleNavClick("#gallery")}
             >
-              Book Now
+              View Gallery
             </Button>
           </div>
         </div>
