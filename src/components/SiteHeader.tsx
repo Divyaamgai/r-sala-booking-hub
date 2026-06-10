@@ -65,9 +65,9 @@ const SiteHeader = () => {
             ))}
             <Button
               size="sm"
-              onClick={() => scrollToSection("#booking")}
+              onClick={() => scrollToSection("#gallery")}
             >
-              Book Now
+              View Gallery
             </Button>
           </nav>
 
