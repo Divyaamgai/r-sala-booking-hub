@@ -6,7 +6,6 @@ import logo from "@/assets/r-sala-logo.png";
 const navLinks = [
   { href: "#about", label: "About" },
   { href: "#gallery", label: "Gallery" },
-  { href: "#pricing", label: "Pricing" },
 ];
 
 export const scrollToSection = (href: string) => {
