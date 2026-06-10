@@ -135,14 +135,13 @@ const SiteHeader = () => {
             ))}
           </nav>
 
-          {/* Book Now CTA */}
           <div className="px-6 pb-8 shrink-0">
             <Button
               className="w-full"
               size="lg"
-              onClick={() => handleNavClick("#booking")}
+              onClick={() => handleNavClick("#gallery")}
             >
-              Book Now
+              View Gallery
             </Button>
           </div>
         </div>
